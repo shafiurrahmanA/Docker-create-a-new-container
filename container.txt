@@ -1,0 +1,11 @@
+rahman@rahman:~$ docker --version
+Docker version 20.10.5, build 55c4c88
+rahman@rahman:~$ docker images
+REPOSITORY                    TAG       IMAGE ID       CREATED         SIZE
+my_first_image                latest    e113fe71c1ba   20 hours ago    100MB
+ubuntu                        latest    4dd97cefde62   8 days ago      72.9MB
+gcr.io/k8s-minikube/kicbase   v0.0.18   a776c544501a   2 weeks ago     1.08GB
+nginx                         latest    35c43ace9216   3 weeks ago     133MB
+hello-world                   latest    bf756fb1ae65   14 months ago   13.3kB
+rahman@rahman:~$ docker run --name test my_first_image
+welcome to kloudone
